@@ -1,8 +1,5 @@
-name: Terraform Module
-on: pull_request
-permissions:
-  contents: write
-  pull-requests: write
+name: TF
+on: workflow_call
 jobs:
   find-changes:
     name: Find changes
