@@ -1,4 +1,4 @@
-name: Terraform Module Validate
+name: Terraform Module Validate Test
 on: workflow_call
 jobs:
   find-changes:

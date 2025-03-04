@@ -1,4 +1,4 @@
-name: Terraform Module Docs
+name: Terraform Module Docs Test
 on:
   workflow_call:
     inputs:
