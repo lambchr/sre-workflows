@@ -1,0 +1,32 @@
+{
+  "include-component-in-tag": true,
+  "separate-pull-requests": true,
+  "commit-search-depth": 100,
+  "release-type": "simple",
+  "packages": {
+    ".github/workflows/conventional-commits.yaml": {
+      "component": "workflow/conventional-commits",
+      "package": "workflow/conventional-commits",
+      "changelog-path": ".github/workflows/release/conventional-commits/CHANGELOG.md",
+      "version-file": ".github/workflows/release/conventional-commits/version.txt"
+    },
+    ".github/workflows/terraform-module-readme.yaml": {
+      "component": "workflow/terraform-module-readme",
+      "package": "workflow/terraform-module-readme",
+      "changelog-path": ".github/workflows/release/terraform-module-readme/CHANGELOG.md",
+      "version-file": ".github/workflows/release/terraform-module-readme/version.txt"
+    },
+    ".github/workflows/terraform-module-release": {
+      "component": "workflow/terraform-module-release",
+      "package": "workflow/terraform-module-release",
+      "changelog-path": ".github/workflows/release/terraform-module-release/CHANGELOG.md",
+      "version-file": ".github/workflows/release/terraform-module-release/version.txt"
+    },
+    ".github/workflows/terraform-module-validate": {
+      "component": "workflow/terraform-module-validate",
+      "package": "workflow/terraform-module-validate",
+      "changelog-path": ".github/workflows/release/terraform-module-validate/CHANGELOG.md",
+      "version-file": ".github/workflows/release/terraform-module-validate/version.txt"
+    }
+  }
+}
