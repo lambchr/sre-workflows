@@ -17,8 +17,6 @@ on:
         required: false
         default: "chore: auto update README.md files"
         type: string
-permissions:
-  contents: write
 jobs:
   update-readme:
     name: Update README.md files

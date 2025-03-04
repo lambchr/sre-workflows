@@ -10,8 +10,6 @@ on:
         description: "The last SHA in git history to be checked."
         required: true
         type: string
-permissions:
-  pull-requests: read
 jobs:
   pr-title:
     name: PR Title
