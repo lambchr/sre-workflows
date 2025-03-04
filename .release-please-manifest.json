@@ -1,1 +1,6 @@
-{}
+{
+  ".github/workflows/conventional-commits.yaml": "workflow/conventional-commit-v0.0.1",
+  ".github/workflows/terraform-module-readme.yaml": "workflow/terraform-module-readme-v0.0.1",
+  ".github/workflows/terraform-module-release.yaml": "workflow/terraform-module-release-v0.0.1",
+  ".github/workflows/terraform-module-validate.yaml": "workflow/terraform-module-validate-v0.0.1"
+}
