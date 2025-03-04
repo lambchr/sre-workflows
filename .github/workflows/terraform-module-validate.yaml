@@ -1,4 +1,4 @@
-name: TF
+name: Terraform Module Validate
 on: workflow_call
 jobs:
   find-changes:

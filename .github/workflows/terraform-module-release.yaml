@@ -1,0 +1,16 @@
+name: Terraform Module Release
+on: workflow_call
+jobs:
+  release:
+    name: Release
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Terraform Module Releaser
+        uses: techpivot/terraform-module-releaser@v1
+        with:
+          major-keywords: major change,breaking change,feat!,feature!,fix!,chore!,docs!
+          minor-keywords: feat,feature
+          patch-keywords: fix,chore,docs
