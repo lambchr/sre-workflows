@@ -1,4 +1,4 @@
-name: Conventional Commits Test
+name: Conventional Commits
 on:
   workflow_call:
     inputs:
