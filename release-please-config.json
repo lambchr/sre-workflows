@@ -16,13 +16,13 @@
       "changelog-path": ".github/workflows/release/terraform-module-readme/CHANGELOG.md",
       "version-file": ".github/workflows/release/terraform-module-readme/version.txt"
     },
-    ".github/workflows/terraform-module-release": {
+    ".github/workflows/terraform-module-release.yaml": {
       "component": "workflow/terraform-module-release",
       "package": "workflow/terraform-module-release",
       "changelog-path": ".github/workflows/release/terraform-module-release/CHANGELOG.md",
       "version-file": ".github/workflows/release/terraform-module-release/version.txt"
     },
-    ".github/workflows/terraform-module-validate": {
+    ".github/workflows/terraform-module-validate.yaml": {
       "component": "workflow/terraform-module-validate",
       "package": "workflow/terraform-module-validate",
       "changelog-path": ".github/workflows/release/terraform-module-validate/CHANGELOG.md",
